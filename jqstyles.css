@@ -5,3 +5,16 @@
   padding-left: 30px;
   padding-top: 20px;
 }
+.div1 {
+  margin-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+.div1 button {
+  width: 100px;
+  border: 2px solid gray;
+  background-color: #138496;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="myjquery.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="mydiv" style="margin-top: 100px">
+      <h1>Click on any of these to see respective API's</h1>
+      <button
+        id="users"
+        class="btn btn-primary btn-lg"
+        data-toggle="modal"
+        onclick="window.location.href='/users.html'"
+        style="margin-left: 35%"
+      >
+        Users
+      </button>
+
+      <button
+        id="albums"
+        class="btn btn-primary btn-lg"
+        data-toggle="modal"
+        onclick="window.location.href='/albums.html'"
+      >
+        Albums
+      </button>
+    </div>
+  </body>
+</html>
